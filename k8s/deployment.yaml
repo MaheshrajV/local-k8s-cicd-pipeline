@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: cicd-demo
-        image: <dockerhub-username>/cicd-demo:latest
+        image: maheshraj16/cicd-demo:latest
         ports:
         - containerPort: 5000
 ---
@@ -29,3 +29,4 @@ spec:
   ports:
   - port: 80
     targetPort: 5000
+
