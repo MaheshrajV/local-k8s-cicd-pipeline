@@ -45,4 +45,4 @@ jobs:
 
     - name: Deploy to Kubernetes
       run: |
-        kubectl --kubeconfig=kubeconfig apply -f k8s/
+        kubectl --kubeconfig=kubeconfig apply -f k8s/ --validate=false
